@@ -32,15 +32,27 @@
                 <li class="nav-item">
                     <a href="javascript:void(0)" class="nav-link" onclick="showPage('links', this)">Links</a>
                 </li>
+                <li>
+                    <a href="javascript:void(0)" class="nav-link" onclick="showPage('about', this)">About</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="nav-link" onclick="showPage('contact', this)">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
 
     <!-- HOME SECTION -->
     <section id="home" class="section active">
-        <br><br><br>
-        <h1 class="text">Welcome to this SPL Document link website!!</h1>
-        <p>Coming soon!</p>
+        <br></br>
+        <br></br>
+       
+        <h1 class="text">Welcome to this SPL Document link website!</h1>
+        <p>Welkom op het SPL Documentenportaal
+
+Op deze website vind je een volledig overzicht van alle SPL‑documenten, overzichtelijk verzameld op één centrale plaats. Je kan hier eenvoudig documenten bekijken, downloaden en doorzoeken. Dankzij de duidelijke structuur en categorie‑indeling vind je snel wat je nodig hebt.
+
+Gebruik de navigatie bovenaan om door de verschillende onderdelen te bladeren.</p>
     </section>
 
     <!-- LINKS SECTION -->
@@ -59,6 +71,40 @@
         <center><a class="links" href="https://zweefvliegopleiding.nl/images/vliegtuigprestaties/7-Vliegprestaties.pdf">Vluchtprestaties en vluchtplanning</a></center>
         <center><a class="links" href="https://zweefvliegopleiding.nl/images/algemene-kennis-vliegtuig/Akvhz.pdf">Algemene Kennis van het Zweefvliegtuig</a></center>
         <center><a class="links" href="https://zweefvliegopleiding.nl/images/navigatie/9-Navigatie.pdf">Navigatie</a></center>
+    </section>
+    
+    <section id="about" class="section">
+        <br></br>
+        <p id="about"  class="about-txt">About</p>
+        This website has been made by Arthur Vander Beken and has all rights reserved.
+    </section>
+
+    <section id="contact" class="section">
+        <br></br>
+        <br></br>
+        <p class="contact-ui">Contact Us</p>
+
+        <form active="send.php" method="POST">
+
+<div class="field">
+  <input type="text" placeholder=" " required>
+  <label>Your Name</label>
+</div>
+
+<div class="field">
+  <input type="email" placeholder=" " required>
+  <label>Your Email</label>
+</div>
+
+<div class="field">
+  <textarea placeholder=" " required></textarea>
+  <label>Your Message</label>
+</div>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+        <p id="status"></p>
     </section>
 
     <!-- FOOTER -->
